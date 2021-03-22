@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dice Game</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dice Game</h1>
+        <p>Reach 100 points to win</p>
+    </header>
+    
+    <main>
+        <img src="Dice.png" width=400 height=400 alt="This is the picture of dice">
+        <br>
+        <p class="press">Press Player 1 to Start</p>
+        <br>
+        <br><br>
+        <div class="play">
+        <input type="submit" class="Player1" value="Player 1">
+        <input type="submit" class="Player2" value="Player 2">
+        <br>
+        <p class="again"></p>
+        </div>
+        <br><br>
+        <div class="d1">
+            <p>Dice 1: <span class="dice1_1"></span></p>
+            <p>Dice 1: <span class="dice2_1"></span></p>
+        </div>
+
+        <div class="d2">
+            <p>Dice 2: <span class="dice1_2"></span></p>
+            <p>Dice 2: <span class="dice2_2"></span></p>
+        </div>
+        <br><br>
+        <div class="ttl">
+            <p>Total Score: <span class="t1"></span></p>
+            <p>Total Score: <span class="t2"></span></p>
+        </div>
+        <h4></h4>
+        <input type="submit" class="refresh" value="Play Again">
+
+        <footer>
+            <p class="copyright">Made by Afiq Ammar</p>
+        </footer>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>
